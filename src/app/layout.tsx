@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { DM_Sans as DmSans } from 'next/font/google'
+import { Header } from './components/header'
 
 const dmSans = DmSans({
   subsets: ['latin'],
@@ -20,8 +21,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={dmSans.className}>{children}</body>
+    <html className="antialiased" lang="pt-BR">
+      <body className={dmSans.className}>
+        <>
+          <Header />
+          {children}
+        </>
+      </body>
     </html>
   )
 }

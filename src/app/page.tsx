@@ -16,14 +16,14 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:items-end lg:justify-between">
           <div className="mx-auto mb-16 flex max-w-xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
             <p className="mb-4 text-sm font-bold uppercase text-primary-500">
-              Boas-vindas 👋
+              BOAS-VINDAS A DOCTORCARE 👋
             </p>
             <h1 className="mb-6 text-3xl font-bold text-dark-900 lg:text-5xl">
-              Assistência Veterinária simplificada para todos
+              Assistência médica simplificada para todos
             </h1>
             <p className="mb-8 text-lg">
-              Os veterinários vão além dos sintomas para tratar a causa raiz e
-              proporcionar um melhor bem estar.
+              Os médicos da DoctorCare vão além dos sintomas para tratar a causa
+              raiz de sua doença e proporcionar uma cura a longo prazo.
             </p>
             <WhatsappButton />
           </div>
@@ -161,8 +161,12 @@ export default function Home() {
               Entre em contato <br /> com a gente!
             </h2>
             <a className="mb-8 flex items-center gap-2" href="#">
+              <LuMapPin className="text-primary-500" size={24} />
+              R. Amauri Souza, 346
+            </a>
+            <a className="mb-8 flex items-center gap-2" href="#">
               <LuMail className="text-primary-500" size={24} />
-              vetkennedygomes@gmail.com
+              contato@doctorcare.com
             </a>
             <WhatsappButton />
           </div>
@@ -179,7 +183,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-8 md:flex-row md:items-center">
           <div>
             <p className="w-full text-2xl text-white lg:w-fit">
-              Dr<span className="font-bold">Kenned Gomes</span>
+              Doctor<span className="font-bold">Care</span>
             </p>
             <p className="text-white">Todos os direitos reservados.</p>
           </div>

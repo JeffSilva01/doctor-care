@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DoctorCare é um agregador de links para usar como cartão de visitas online.
+O DoctorCare é um site de médicos.
 
 - [Acesse o projeto finalizado, online](https://doctor-care-pied.vercel.app/)
 
